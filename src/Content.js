@@ -6,6 +6,8 @@ import Image3 from "./image/91_Club_TRX_Hash_Colour_Prediction_Game.webp";
 import Image4 from "./image/91_Club_Wingo_Colour_Prediction_Game.webp";
 import "./Content.css";
 
+import History from "./History";
+
 const Content = () => {
   const images = [
     { id: 1, src: Image1, alt: "image1" },
@@ -36,6 +38,9 @@ const Content = () => {
                 </div>
             
             ))}
+     </div>
+     <div className="row">
+            <History/>
      </div>
       
        <div className="row d-flex justify-content-center">

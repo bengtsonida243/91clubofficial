@@ -1,9 +1,3 @@
-/* body {
-  margin: 0;
-  font-family: "Inter", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 [class^="number-slide"],
 [class*=" number-slide"] {
@@ -74,4 +68,4 @@
     rgba(64, 76, 255, 1) 0%,
     rgba(174, 63, 255, 1) 100%
   );
-} */
+}
