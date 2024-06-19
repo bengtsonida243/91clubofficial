@@ -2,3 +2,34 @@
     height: 60px !important;
     width: auto !important;
 }
+
+h1{
+    color:#ffffff !important;
+}
+
+.img-game{
+    border: 2px solid #ffffff !important;
+    border-radius: 25px;
+    transition: .2s ease-in;
+}
+
+.img-game:hover{
+    transform: scale(1.05);
+}
+
+.button-color{
+    width: 60% !important;
+    height: 4rem;
+    border-radius: 25px;
+    color:#ffffff;
+    background-color: #F54340;
+    border: 2px solid #ffffff;
+    transition: 0.5s ease-in;
+}
+
+.button-color:hover{
+    color:#F54340;
+    background-color: #ffffff;
+    border: 2px solid #F54340;
+    transform: scale(1.1);
+}

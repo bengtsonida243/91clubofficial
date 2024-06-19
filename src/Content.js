@@ -32,15 +32,15 @@ const Content = () => {
             {images.map((image) => (
             
                 <div className="col-lg-6 mb-4">
-                    <img key={image.id} src={image.src} className="img-fluid" alt={image.alt} />
+                    <img key={image.id} src={image.src} className="img-fluid img-game" alt={image.alt} />
                 </div>
             
             ))}
      </div>
       
-       <div className="row">
+       <div className="row d-flex justify-content-center">
             {buttons.map((btn) => (
-                 <button className="my-2" key={btn.id}src={btn.link}>{btn.text}</button>
+                 <button className="my-2 button-color" key={btn.id}src={btn.link}>{btn.text}</button>
             
             ))}
         </div>
