@@ -25,7 +25,7 @@ const Content = () => {
   return (
     <div className="container">
       <div className="row">
-        <img src={Icon} alt="icon" className="img-fluid icon-style d-flex mx-auto" />
+        <img src={Icon} alt="icon" className="img-fluid icon-style d-flex mx-auto mt-3" />
         <h1 className="text-center">91 Club Official</h1>
       </div>
       <div className="row">
@@ -43,7 +43,10 @@ const Content = () => {
                  <button className="my-2 button-color" key={btn.id}src={btn.link}>{btn.text}</button>
             
             ))}
-        </div>
+      </div>
+      <footer className="d-flex justify-content-center mt-5">
+        <p className="text-light">91 Club Official | All Rights Reserved.</p>
+      </footer>
       
     </div>
   );
