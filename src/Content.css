@@ -13,6 +13,23 @@ h1{
     transition: .2s ease-in;
 }
 
+
+.img-game{
+    height: 5rem;
+}
+.img-icon{
+    height: 60px !important;
+}
+p{
+    color:#ffffff;
+}
+.red{
+    color:#f54340 !important;
+}
+.white{
+    color:#ffffff !important
+}
+
 .img-game:hover{
     transform: scale(1.05);
 }
