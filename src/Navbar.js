@@ -47,7 +47,7 @@ function OffcanvasExample() {
                   <Nav.Link href="#action2">Register</Nav.Link>
                   <Nav.Link href="#action2">Deposit Now</Nav.Link>
                   <Nav.Link href="#action2">Official site</Nav.Link>
-                  <Nav.Link href="#action2">COntact Us</Nav.Link>
+                  <Nav.Link href="#action2">Contact Us</Nav.Link>
                   
                 </Nav>
                
