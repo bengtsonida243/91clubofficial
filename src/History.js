@@ -3,7 +3,7 @@ import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
 import './App.css';
 
-function History() {
+function App() {
   const [sliderRef, slider] = useKeenSlider({
     loop: true,
     slides: {
@@ -42,4 +42,4 @@ function History() {
   );
 }
 
-export default History;
+export default App;

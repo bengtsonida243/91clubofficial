@@ -8,12 +8,13 @@ import "./Content.css";
 
 import History from "./History";
 
+
 const Content = () => {
   const images = [
-    { id: 1, src: Image1, alt: "image1" },
-    { id: 2, src: Image2, alt: "image2" },
-    { id: 3, src: Image3, alt: "image3" },
-    { id: 4, src: Image4, alt: "image4" },
+    { id: 1, src: Image1, alt: "91 Club | 5D Lotre Number Prediction Game" },
+    { id: 2, src: Image2, alt: "91 Club | K3 Lotre Number Prediction Game" },
+    { id: 3, src: Image3, alt: "91 Club | TRX Hash Colour Prediction Game" },
+    { id: 4, src: Image4, alt: "91 Club | Wingo Colour Prediction Game" },
   ];
 
   const buttons = [
@@ -23,6 +24,7 @@ const Content = () => {
     { id: 4, text: "Official Site", link: "image4" },
     { id: 5, text: "Contact Us", link: "image4" },
   ];
+
 
   return (
     <div className="container">
@@ -39,15 +41,18 @@ const Content = () => {
             
             ))}
      </div>
-     <div className="row">
-            <History/>
-     </div>
-      
-       <div className="row d-flex justify-content-center">
-            {buttons.map((btn) => (
-                 <button className="my-2 button-color" key={btn.id}src={btn.link}>{btn.text}</button>
-            
-            ))}
+       <div className="row d-flex">
+            <div className="col my-auto">
+                 <History/>
+            </div>
+            <div className="col">
+               <div className="row justify-content-center">
+                    {buttons.map((btn) => (
+                        <button className="my-2 button-color" key={btn.id}src={btn.link}>{btn.text}</button>
+                    
+                    ))}
+               </div>
+            </div>
       </div>
       <footer className="d-flex justify-content-center mt-5">
         <p className="text-light">91 Club Official | All Rights Reserved.</p>
