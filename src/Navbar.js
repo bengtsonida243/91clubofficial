@@ -1,12 +1,9 @@
-import Button from 'react-bootstrap/Button';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Logo from "./image/91_Club_Official_Logo.webp";
-
 import "./Navbar.css";
 
 
@@ -46,8 +43,11 @@ function OffcanvasExample() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action2">Link</Nav.Link>
+                  <Nav.Link href="#action1">Log in</Nav.Link>
+                  <Nav.Link href="#action2">Register</Nav.Link>
+                  <Nav.Link href="#action2">Deposit Now</Nav.Link>
+                  <Nav.Link href="#action2">Official site</Nav.Link>
+                  <Nav.Link href="#action2">COntact Us</Nav.Link>
                   
                 </Nav>
                
