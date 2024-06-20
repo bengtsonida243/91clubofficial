@@ -14,10 +14,10 @@ import History from "./History";
 
 const Content = () => {
   const images = [
-    { id: 1, src: Image1, alt: "91 Club | 5D Lotre Number Prediction Game" },
-    { id: 2, src: Image2, alt: "91 Club | K3 Lotre Number Prediction Game" },
-    { id: 3, src: Image3, alt: "91 Club | TRX Hash Colour Prediction Game" },
-    { id: 4, src: Image4, alt: "91 Club | Wingo Colour Prediction Game" },
+    { id: 1, src: Image1, alt: "91 Club | 5D Lotre Number Prediction Game", link:"https://91clubofficial.fun/5d-lotre-number-prediction-game/" },
+    { id: 2, src: Image2, alt: "91 Club | K3 Lotre Number Prediction Game", link:"https://91clubofficial.fun/k3-lotre-number-prediction-game/" },
+    { id: 3, src: Image3, alt: "91 Club | TRX Hash Colour Prediction Game", link:"https://91clubofficial.fun/trx-hash-colour-prediction-game/" },
+    { id: 4, src: Image4, alt: "91 Club | Wingo Colour Prediction Game", link:"https://91clubofficial.fun/wingo-colour-prediction-game/" },
   ];
 
   const buttons = [
@@ -58,7 +58,9 @@ const Content = () => {
       <div className="row">
             {images.map((image) => (
                 <div className="col-lg-6 mb-4">
+                  <a href={image.link} target="_blank" rel="noopener noreferrer">
                     <img key={image.id} src={image.src} className="img-fluid img-game" alt={image.alt} />
+                    </a>
                 </div>
             
             ))}
