@@ -67,7 +67,7 @@ const Content = () => {
      </div>
        <div className="row d-flex">
             <div className="col my-auto">
-                  <h2>Betting Info:</h2>
+                  <h2>Daily Winner:</h2>
                  <History/>
             </div>
             <div className="col">
