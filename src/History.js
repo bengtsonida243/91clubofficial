@@ -42,7 +42,6 @@ const History = () => {
        className="keen-slider no-pointer-events"
       style={{ height: 300, overflow: "hidden" }}
      >  
-      <h3 className="text-light">Winning Info</h3>
       {sliders.map((slide) => (
       
         <div key={slide.id} className={slide.keen}>
