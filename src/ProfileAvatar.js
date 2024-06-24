@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// import Avatar, { genConfig } from 'react-nice-avatar';
 import "./ProfileAvatar.css";
 import Image1 from "./image/asset1.webp";
 import Image2 from "./image/asset2.webp";
@@ -10,6 +9,8 @@ import Image6 from "./image/asset6.webp";
 import Image7 from "./image/asset7.webp";
 import Image8 from "./image/asset8.webp";
 import Image9 from "./image/asset9.webp";
+
+
 
 const ProfileAvatar = () => {
 
@@ -34,7 +35,6 @@ const ProfileAvatar = () => {
         };
         setRandomImage(getRandomImage());
     }, []);
-    // const config = genConfig({ sex: Math.random() > 0.5 ? 'man' : 'woman' });
     const randomValue = Math.floor(Math.random() *1000);
     const generateRandomString = (length) => {
         const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -50,7 +50,6 @@ const ProfileAvatar = () => {
     
       <div className="row">
         <div class="col">
-        {/* <Avatar className='d-flex mx-auto' style={{ width: '100px', height: '100px' }} {...config} /> */}
               <img src={randomImage} alt="Random" />
         </div>
         <div className="col my-auto text-center">
