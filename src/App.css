@@ -36,3 +36,8 @@
     rgba(174, 63, 255, 1) 100%
   );
 }
+
+img.img-fluid.img-rank {
+  width: auto;
+  height: 18rem !important;
+}
