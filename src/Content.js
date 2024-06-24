@@ -33,7 +33,7 @@ const Content = () => {
       <div className="row d-flex my-5 flex-column-reverse flex-sm-row">
         <div className="col-lg-6 col-sm-12 my-auto">
           <h2 className="red">What is 91 Club?</h2>
-          <p>Welcome to <a class="link" href="https://91clubofficial.fun/" target="_blank" rel="noopener noreferrer">91 Club Official</a>, where gaming is more than just a pastime—it's a lifestyle. 91 Club Official is an exciting online platform dedicated to the dynamic world of color prediction games, which have quickly become a popular activity among gaming enthusiasts in India. Our platform acts as a digital bridge between tradition and the future, providing a distinct blend of historic gaming pleasure and the seamless convenience of modern technology.</p>
+          <p>Welcome to <a class="link" href="https://91clubofficial.fun/" target="_blank">91 Club Official</a>, where gaming is more than just a pastime—it's a lifestyle. 91 Club Official is an exciting online platform dedicated to the dynamic world of color prediction games, which have quickly become a popular activity among gaming enthusiasts in India. Our platform acts as a digital bridge between tradition and the future, providing a distinct blend of historic gaming pleasure and the seamless convenience of modern technology.</p>
         </div>
         <div className="col-lg-6 col-sm-12">
           <img  src={Image5} className="img-fluid" alt="91 Club | Questions" />
@@ -53,7 +53,7 @@ const Content = () => {
       <div className="row">
             {images.map((image) => (
                 <div className="col-lg-6 mb-4">
-                  <a href={image.link} target="_blank" rel="noopener noreferrer">
+                  <a href={image.link} target="_blank">
                     <img key={image.id} src={image.src} className="img-fluid img-game" alt={image.alt} />
                     </a>
                 </div>
